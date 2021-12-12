@@ -9,7 +9,6 @@ exec("yarn build", (error, stdout, stderr) => {
   }
   if (stderr) {
     console.log(`stderr: ${stderr}`);
-    return;
   }
   console.log(`stdout: ${stdout}`);
 
